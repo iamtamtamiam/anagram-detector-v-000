@@ -7,12 +7,10 @@ class Anagram
   end 
   
   def match(some_words)
-    some_words.select |anagram|
-      anagram.split("").sort == @word.split("").sort
+    some_words.select |words|
+      words.split("").sort == @word.split("").sort
     end 
     
     #split each word in some_words then go through each word and match it to @word.split
-    
-    
   end 
 end 
