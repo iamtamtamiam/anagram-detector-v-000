@@ -12,5 +12,6 @@ class Anagram
     end 
     
     #split each word in some_words then go through each word and match it to @word.split
+    #sort both to match
   end 
 end 
